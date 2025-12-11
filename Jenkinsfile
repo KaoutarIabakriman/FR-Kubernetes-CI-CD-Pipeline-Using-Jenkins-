@@ -17,7 +17,8 @@ pipeline {
 
         stage('Checkout from SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/KaoutarIabakriman/FR-Kubernetes-CI-CD-Pipeline-Using-Jenkins-'
+                git branch: 'main', url: 'https://github.com/KaoutarIabakriman/FR-Kubernetes-CI-CD-Pipeline-Using-Jenkins.git
+'
             }
         }
 
